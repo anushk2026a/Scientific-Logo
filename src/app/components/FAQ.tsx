@@ -11,7 +11,7 @@ export default function FAQ({ content }: { content: FAQContent }) {
 
   return (
     <section id="faq" className="py-24 md:py-32" style={{ backgroundColor: 'var(--color-bg)' }}>
-      <div className="max-w-3xl mx-auto px-6">
+      <div className="max-w-3xl mx-auto px-4 sm:px-6">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -20,7 +20,7 @@ export default function FAQ({ content }: { content: FAQContent }) {
           className="text-center mb-16"
         >
           <p className="section-label mb-4">{content.sectionLabel}</p>
-          <h2 className="font-heading font-semibold text-3xl md:text-4xl" style={{ color: 'var(--color-text)' }}>
+          <h2 className="font-heading font-semibold text-2xl sm:text-3xl md:text-4xl" style={{ color: 'var(--color-text)' }}>
             {content.heading}
           </h2>
         </motion.div>

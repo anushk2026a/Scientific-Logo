@@ -14,6 +14,8 @@ interface HeroContent {
 }
 
 export default function Hero({ content }: { content: HeroContent }) {
+  const [before, after] = content.headline.split('—').map((s) => s.trim());
+
   return (
     <section
       className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-16"
@@ -23,35 +25,34 @@ export default function Hero({ content }: { content: HeroContent }) {
         backgroundImage: 'radial-gradient(circle at 50% 50%, rgba(201,168,76,0.04) 0%, transparent 70%)',
       }} />
 
-      <div className="relative z-10 max-w-4xl mx-auto px-6 flex flex-col items-center text-center">
+      <div className="relative z-10 w-full max-w-4xl mx-auto px-4 sm:px-6 flex flex-col items-center text-center py-12">
+
+        {/* Badge */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-full border text-xs mb-8"
+          className="inline-flex items-center gap-2 px-4 py-2 rounded-full border text-xs mb-6 sm:mb-8"
           style={{ borderColor: 'var(--color-gold)', color: 'var(--color-gold)', fontFamily: 'var(--font-body)', letterSpacing: '0.1em', textTransform: 'uppercase' }}
         >
           {content.badge}
         </motion.div>
 
+        {/* Headline */}
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.6 }}
-          className="font-heading font-bold text-4xl md:text-5xl lg:text-6xl leading-tight mb-8"
+          className="font-heading font-bold text-2xl sm:text-3xl md:text-5xl lg:text-6xl leading-tight mb-6 sm:mb-8 px-2"
           style={{ color: 'var(--color-text)' }}
         >
-          {content.headline.split('—')[0].trim()}
-          {content.headline.includes('—') && (
-            <>
-              {' '}—{' '}
-              <em className="gold-text not-italic">
-                {content.headline.split('—')[1].trim()}
-              </em>
-            </>
+          {before}
+          {after && (
+            <> —{' '}<em className="gold-text not-italic">{after}</em></>
           )}
         </motion.h1>
 
+        {/* CTA */}
         <motion.a
           href={content.ctaHref}
           target="_blank"
@@ -61,17 +62,18 @@ export default function Hero({ content }: { content: HeroContent }) {
           transition={{ delay: 0.6, duration: 0.6 }}
           whileHover={{ scale: 1.03 }}
           whileTap={{ scale: 0.97 }}
-          className="btn-gold px-8 py-4 rounded-md text-sm mb-10 inline-block"
+          className="btn-gold px-6 sm:px-8 py-3.5 sm:py-4 rounded-full text-sm mb-8 sm:mb-10 inline-block"
           aria-label={content.ctaButton}
         >
           {content.ctaButton}
         </motion.a>
 
+        {/* Video */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.7, duration: 0.6 }}
-          className="w-full max-w-3xl rounded-xl overflow-hidden gold-border-glow mb-10"
+          className="w-full max-w-3xl rounded-xl overflow-hidden gold-border-glow mb-8 sm:mb-10"
           style={{ aspectRatio: '16/9' }}
         >
           <iframe
@@ -83,11 +85,12 @@ export default function Hero({ content }: { content: HeroContent }) {
           />
         </motion.div>
 
+        {/* Trust badges */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.6 }}
-          className="flex flex-wrap justify-center gap-4 mb-8"
+          className="flex flex-wrap justify-center gap-2 sm:gap-4 mb-8"
           role="list"
           aria-label="Trust indicators"
         >
@@ -103,6 +106,7 @@ export default function Hero({ content }: { content: HeroContent }) {
           ))}
         </motion.div>
 
+        {/* Scroll indicator */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -115,9 +119,10 @@ export default function Hero({ content }: { content: HeroContent }) {
         </motion.div>
       </div>
 
-      <div className="w-full overflow-hidden mt-10" style={{ backgroundColor: 'rgba(232,160,32,0.12)', borderTop: '1px solid rgba(232,160,32,0.3)', borderBottom: '1px solid rgba(232,160,32,0.3)' }}>
-        <div className="py-3">
-          <p className="animate-marquee text-sm" style={{ color: 'var(--color-warning)', fontFamily: 'var(--font-body)' }}>
+      {/* Warning marquee banner */}
+      <div className="w-full overflow-hidden" style={{ backgroundColor: 'rgba(232,160,32,0.12)', borderTop: '1px solid rgba(232,160,32,0.3)', borderBottom: '1px solid rgba(232,160,32,0.3)' }}>
+        <div className="py-2.5">
+          <p className="animate-marquee text-xs sm:text-sm" style={{ color: 'var(--color-warning)', fontFamily: 'var(--font-body)' }}>
             {content.warningBanner}
           </p>
         </div>

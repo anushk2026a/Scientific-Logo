@@ -38,7 +38,7 @@ function Typewriter({ text }: { text: string }) {
   return (
     <h2
       ref={ref}
-      className="font-heading font-bold text-3xl md:text-4xl lg:text-5xl leading-tight"
+      className="font-heading font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight"
       style={{ color: 'var(--color-text)' }}
     >
       {displayed}
@@ -65,7 +65,7 @@ export default function CTA({ content }: { content: CTAContent }) {
           className="absolute inset-0 pointer-events-none"
           style={{ backgroundImage: 'radial-gradient(circle at 50% 50%, rgba(201,168,76,0.08) 0%, transparent 65%)' }}
         />
-        <div className="relative z-10 max-w-3xl mx-auto px-6 text-center">
+        <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 text-center">
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

@@ -12,7 +12,7 @@ const imageMap = [IMAGES.achievement1, IMAGES.achievement2, IMAGES.achievement3]
 export default function Achievements({ content }: { content: AchievementsContent }) {
   return (
     <section className="py-24 md:py-32" style={{ backgroundColor: 'var(--color-surface)' }}>
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -21,7 +21,7 @@ export default function Achievements({ content }: { content: AchievementsContent
           className="text-center mb-16"
         >
           <p className="section-label mb-4">{content.sectionLabel}</p>
-          <h2 className="font-heading font-semibold text-3xl md:text-4xl mb-3" style={{ color: 'var(--color-text)' }}>
+          <h2 className="font-heading font-semibold text-2xl sm:text-3xl md:text-4xl mb-3" style={{ color: 'var(--color-text)' }}>
             {content.heading}
           </h2>
           <p className="text-sm" style={{ color: 'var(--color-text-muted)', fontFamily: 'var(--font-body)' }}>

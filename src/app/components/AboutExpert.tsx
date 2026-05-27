@@ -41,7 +41,7 @@ function AnimatedCounter({ value, suffix }: { value: number; suffix: string }) {
 export default function AboutExpert({ content }: { content: AboutContent }) {
   return (
     <section id="about" className="py-24 md:py-32" style={{ backgroundColor: 'var(--color-bg)' }}>
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -59,7 +59,7 @@ export default function AboutExpert({ content }: { content: AboutContent }) {
             transition={{ duration: 0.6 }}
             className="flex justify-center"
           >
-            <div className="relative w-72 h-72 md:w-96 md:h-96">
+            <div className="relative w-56 h-56 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96">
               <div
                 className="absolute inset-0 rounded-full"
                 style={{ boxShadow: '0 0 0 3px var(--color-gold), 0 0 40px rgba(201,168,76,0.2)' }}
@@ -80,13 +80,13 @@ export default function AboutExpert({ content }: { content: AboutContent }) {
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="font-heading font-bold text-3xl md:text-4xl mb-2" style={{ color: 'var(--color-text)' }}>
+            <h2 className="font-heading font-bold text-2xl sm:text-3xl md:text-4xl mb-2 text-center lg:text-left" style={{ color: 'var(--color-text)' }}>
               {content.name}
             </h2>
-            <p className="text-sm mb-6" style={{ color: 'var(--color-gold)', fontFamily: 'var(--font-body)' }}>
+            <p className="text-sm mb-6 text-center lg:text-left" style={{ color: 'var(--color-gold)', fontFamily: 'var(--font-body)' }}>
               {content.title}
             </p>
-            <p className="text-sm leading-relaxed mb-10" style={{ color: 'var(--color-text-muted)', fontFamily: 'var(--font-body)' }}>
+            <p className="text-sm leading-relaxed mb-10 text-center lg:text-left" style={{ color: 'var(--color-text-muted)', fontFamily: 'var(--font-body)' }}>
               {content.bio}
             </p>
 

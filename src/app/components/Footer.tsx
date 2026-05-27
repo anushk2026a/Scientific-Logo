@@ -16,15 +16,15 @@ interface SiteContent { brandName: string; logoAlt: string; tagline: string; }
 export default function Footer({ content, site }: { content: FooterContent; site: SiteContent }) {
   return (
     <footer style={{ backgroundColor: '#050505', borderTop: '1px solid var(--color-border)' }}>
-      <div className="max-w-6xl mx-auto px-6 py-16">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-100px' }}
           transition={{ duration: 0.6 }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10"
+          className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10"
         >
-          <div className="lg:col-span-1">
+          <div className="col-span-2 sm:col-span-2 lg:col-span-1">
             <p className="font-heading font-semibold text-lg mb-3 gold-text">{content.brand}</p>
             <p className="text-xs leading-relaxed mb-4" style={{ color: 'var(--color-text-muted)', fontFamily: 'var(--font-body)' }}>
               {content.description}
