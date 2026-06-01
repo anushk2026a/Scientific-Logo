@@ -5,8 +5,8 @@ import StarBackground from './components/StarBackground';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
 
 export const metadata: Metadata = {
-  title: 'Scientific Logo by Subhash — Financial Growth Ki Guarantee',
-  description: "India's #1 Scientific Logo Consultant. Ph.D.-level VAP analysis for business growth.",
+  title: 'Scientific Logo Design (SLD) — Where Science, Branding & Astro Intelligence Meet',
+  description: "Transform your business identity with scientifically researched logo solutions led by Dr. Nirav Patel, PhD Business Consultation Specialist.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

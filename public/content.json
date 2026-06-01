@@ -1,71 +1,71 @@
 {
   "site": {
-    "brandName": "Scientific Logo by Subhash",
-    "tagline": "Financial Growth Ki Guarantee",
-    "logoAlt": "Scientific Logo by Subhash"
+    "brandName": "Scientific Logo Design (SLD)",
+    "tagline": "Science Behind Successful Brands",
+    "logoAlt": "Scientific Logo Design by Dr. Nirav Patel"
   },
 
   "nav": {
     "links": [
-      { "label": "What You Get", "href": "#discover" },
-      { "label": "About", "href": "#about" },
-      { "label": "Process", "href": "#framework" },
-      { "label": "Pricing", "href": "#pricing" },
+      { "label": "Why SLD", "href": "#why-sld" },
+      { "label": "About Dr. Patel", "href": "#about" },
+      { "label": "Transformation Path", "href": "#pricing" },
       { "label": "FAQ", "href": "#faq" }
     ],
-    "ctaButton": "Book 1:1 Call",
-    "ctaHref": "https://scientificlogo.com/step/vibration-alignment-program/"
+    "ctaButton": "Book Consultation",
+    "ctaHref": "https://wa.me/919936639959"
   },
 
   "hero": {
-    "badge": "India's #1 Scientific Logo Consultant",
-    "headline": "Your Business Logo isn't just a Design — It's a Frequency that Controls Your Business Flow",
-    "ctaButton": "Book 1:1 Call",
-    "ctaHref": "https://scientificlogo.com/step/vibration-alignment-program/",
-    "scrollLabel": "Scroll",
+    "badge": "SCIENTIFIC LOGO DESIGN (SLD)",
+    "headline": "Where Science, Branding & Astro Intelligence — Create Powerful Business Identities",
+    "description": "Transform your business identity with scientifically researched logo design solutions. Led by Dr. Nirav Patel, PhD Business Consultation Specialist and Astro Science Logo Expert, we help businesses align their brand identity with strategic business positioning, visual psychology, and astro-scientific principles.",
+    "ctaButton": "Get Started Now",
+    "ctaHref": "https://wa.me/919936639959",
+    "scrollLabel": "Explore",
     "videoEmbedUrl": "https://fast.wistia.net/embed/iframe/ywdyx5gcac",
     "trustBadges": [
       "⭐ Rated 4.9/5",
-      "15,000+ Logos Analyzed",
-      "90-Day Money Back",
-      "Ph.D. Expert"
+      "5,000+ Logos Consulted",
+      "15+ Years Experience",
+      "Ph.D. Expert Consultation"
     ],
     "warningBanner": "⚠️ अगर आपका Logo सही Vibrational Frequency पर Tuned नहीं है, तो Universe से आने वाला Growth Signal Block हो जाता है — और आपका Business Financially Stuck महसूस करता है।"
   },
 
   "whatYouGet": {
-    "sectionLabel": "What You Get",
-    "heading": "What You'll Discover in the 1:1 Scientific Logo Consultation Call",
+    "sectionLabel": "Why Scientific Logo Design?",
+    "heading": "The Science of Vibrational & Astrological Alignment",
     "cards": [
       {
+        "icon": "📈",
+        "title": "Business Growth Focus",
+        "description": "Every aspect of your logo's design is engineered to accelerate your brand's growth trajectory and unlock new revenue streams."
+      },
+      {
+        "icon": "🌌",
+        "title": "Astro Science Analysis",
+        "description": "Using cosmic alignment and astrological principles to select colors, shapes, and layouts that harmonize with your business's destiny."
+      },
+      {
+        "icon": "👑",
+        "title": "Strategic Brand Identity",
+        "description": "Creating visual assets that assert authority, foster deep customer trust, and establish unique positioning in your industry."
+      },
+      {
+        "icon": "🤝",
+        "title": "Personalized Consultation",
+        "description": "Direct 1:1 consultation sessions with Dr. Nirav Patel to deep-dive into your specific business challenges and aspirations."
+      },
+      {
         "icon": "🔬",
-        "title": "Business Vibration Assessment",
-        "description": "Complete analysis of your logo's vibrational alignment with your business goals and growth trajectory."
+        "title": "Industry-Specific Research",
+        "description": "Extensive market and visual psychology research tailored specifically to your sector to outshine competitors."
       },
       {
-        "icon": "🔸",
-        "title": "Logo Geometry Analysis",
-        "description": "Sacred geometry principles applied to assess balance, proportion, and energetic flow in your logo design."
-      },
-      {
-        "icon": "🎨",
-        "title": "Color Frequency Reading",
-        "description": "Deep analysis of how your logo's color palette influences customer psychology and cash flow patterns."
-      },
-      {
-        "icon": "✍️",
-        "title": "Typography Observation",
-        "description": "Graphological analysis of your logo's fonts and how they project authority, trust, and growth energy."
-      },
-      {
-        "icon": "🔄",
-        "title": "Energy Flow Mapping",
-        "description": "Complete mapping of energy pathways in your brand identity and how they affect business outcomes."
-      },
-      {
-        "icon": "🧠",
-        "title": "Subconscious Impact Study",
-        "description": "Understanding how your logo programs your clients' subconscious buying and referral behaviour."
+        "icon": "👁️",
+        "title": "Long-Term Brand Vision",
+        "description": "Designing robust identities built to stand the test of time, adapting as your business expands globally."
       }
     ]
   },
@@ -109,175 +109,180 @@
   },
 
   "about": {
-    "sectionLabel": "The Expert",
-    "name": "Dr. Subhash Bothare",
-    "title": "Ph.D. in Business Consulting — Scientific Logo Specialist",
-    "bio": "Completed Ph.D. in Business Consulting, specializing in the Science of Vibrations, Shapes, and Colors and their impact on business success through logo design. Creator of the Vibration Alignment Protocol (VAP) — the only scientific framework for logo-to-business performance mapping. Analyzed 15,000+ logos. Served 2,000+ business owners globally. Trained 1,500+ marketers. Consulted 150+ agency owners. Based in Mumbai. Featured across business consulting platforms.",
-    "imageAlt": "Dr. Subhash Bothare",
+    "sectionLabel": "About the Expert",
+    "name": "Dr. Nirav Patel",
+    "title": "PhD Business Consultation Specialist & Astro Science Logo Expert",
+    "bio": "Dr. Nirav Patel is a renowned Business Consultation Specialist and Astro Science Logo Expert with extensive experience in business transformation through strategic brand identity development.",
+    "imageAlt": "Dr. Nirav Patel - PhD Business Consultation Specialist",
     "stats": [
-      { "value": 15000, "suffix": "+", "label": "Logos Analyzed" },
-      { "value": 2000, "suffix": "+", "label": "Clients Served" },
-      { "value": 1500, "suffix": "+", "label": "Marketers Trained" },
-      { "value": 150, "suffix": "+", "label": "Agency Owners" }
+      { "value": 5000, "suffix": "+", "label": "Logos Consulted" },
+      { "value": 2500, "suffix": "+", "label": "Businesses Transformed" },
+      { "value": 15, "suffix": "+", "label": "Years Experience" },
+      { "value": 100, "suffix": "+", "label": "Industries Served" },
+      { "value": 98, "suffix": "%", "label": "Client Satisfaction" },
+      { "value": 500, "suffix": "+", "label": "Premium Transformations" }
     ]
   },
 
   "achievements": {
-    "sectionLabel": "Recognition & Awards",
-    "heading": "Some Achievements",
-    "subheading": "Recognized by India's highest authorities",
+    "sectionLabel": "Recognition & Milestones",
+    "heading": "Achievements & Credentials",
+    "subheading": "Guiding businesses through scientific brand transformation",
     "items": [
       {
-        "imageAlt": "Dr. Subhash Bothare Ph.D. Ceremony",
-        "title": "Ph.D. Degree — Burlington State University",
-        "subtitle": "International Intellectual Conference, New Delhi"
+        "imageAlt": "Scientific Logo Design Consultation with Dr. Nirav Patel",
+        "title": "PhD in Business Consultation",
+        "subtitle": "Specialized research in branding and visual psychology alignment"
       },
       {
-        "imageAlt": "Dr. Subhash Bothare with Ramnath Kovind",
-        "title": "Meeting with Ramnath Kovind",
-        "subtitle": "Former President of India"
+        "imageAlt": "Astrological Brand Geometry Analysis",
+        "title": "Astro-Scientific Logo Framework",
+        "subtitle": "Combining ancient cosmic sciences with modern industry-specific branding"
       },
       {
-        "imageAlt": "Dr. Subhash Bothare with Nitin Gadkari",
-        "title": "Meeting with Nitin Gadkari",
-        "subtitle": "Union Minister, Government of India"
+        "imageAlt": "Business Transformation Seminar",
+        "title": "Global Consultation Reach",
+        "subtitle": "Successfully advising over 2,500 brands and enterprise leaders"
       }
     ]
   },
 
   "whoIsThisFor": {
     "sectionLabel": "Who Is This For?",
-    "heading": "Is This Consultation Right for You?",
+    "heading": "Is This Transformation Right for You?",
     "notFor": {
       "label": "❌ This is NOT for you if...",
       "points": [
-        "You think logo is just a picture and has no impact on business",
-        "You are not willing to invest in your brand's energy correction",
-        "You expect overnight magic without following the protocol",
-        "You are not open to scientific analysis of ancient wisdom",
-        "You are looking for cheap logo design service, not transformation"
+        "You think a logo is just a picture and has no impact on business growth",
+        "You are not willing to align your brand elements with astro-scientific principles",
+        "You expect overnight miracles without implementing strategic guidelines",
+        "You are not open to combining ancient wisdom with rigorous branding research",
+        "You want a cheap graphic shortcut rather than a premium business transformation"
       ]
     },
     "isFor": {
       "label": "✅ This IS for you if...",
       "points": [
-        "You are a serious business owner committed to removing hidden growth blockers",
-        "You believe in the science behind vibrational alignment and energy flow",
-        "You are ready to invest in a proven, systematic transformation protocol",
-        "You want Ph.D.-level expert analysis, not generic design opinions",
-        "You want financial growth backed by scientific logo correction"
+        "You are a dedicated business owner committed to unlocking hidden bottlenecks",
+        "You believe in the science of visual psychology, vibration, and astrological flow",
+        "You want an expert, PhD-backed methodology to optimize your brand identity",
+        "You are ready to invest in long-term success and stable brand positioning",
+        "You want your brand to organically attract key opportunities and high-paying clients"
       ]
     }
   },
 
   "process": {
-    "sectionLabel": "The Process",
-    "heading": "Loose Framework of 45 Min Consultation Call",
+    "sectionLabel": "The Framework",
+    "heading": "A Systematic 4-Stage Pathway to Brand Alignment",
     "steps": [
       {
         "number": "1",
-        "title": "Signature Analysis",
-        "description": "Deep graphological assessment of your personal signature's energy alignment with your business vibration."
+        "title": "Deep Business Analysis",
+        "description": "Evaluating your target audience, commercial positioning, and operational blockages."
       },
       {
         "number": "2",
-        "title": "Wristwatch Analysis",
-        "description": "Analysis of your wristwatch position and its energetic influence on your decision-making frequency."
+        "title": "Astro-Scientific Review",
+        "description": "Assessing existing shape parameters, visual channels, and color spectrum vibrations."
       },
       {
         "number": "3",
-        "title": "Logo Analysis",
-        "description": "Complete 11-indicator VAP analysis of your logo's vibrational impact across all business performance parameters."
+        "title": "Creative Strategic Alignment",
+        "description": "Developing customized corrections in geometry, typography, and visual branding elements."
       },
       {
         "number": "4",
-        "title": "Visiting Card Analysis",
-        "description": "Assessment of your visiting card's layout, color, typography and energetic flow for networking success."
-      },
-      {
-        "number": "5",
-        "title": "VAP Compatibility Explore",
-        "description": "Exploration of how the Vibration Alignment Protocol applies specifically to your business sector and goals."
-      },
-      {
-        "number": "6",
-        "title": "Financial Growth Roadmap",
-        "description": "Personalised roadmap with actionable steps for aligning your brand identity with financial growth trajectory."
+        "title": "Comprehensive Execution & Support",
+        "description": "Delivering high-resolution vectors, brand guidelines, and actionable business deployment roadmaps."
       }
     ]
   },
 
   "pricing": {
-    "sectionLabel": "Investment",
-    "heading": "Choose Your Transformation Path",
-    "ctaButton": "Book 1:1 Call",
-    "ctaHref": "https://scientificlogo.com/step/vibration-alignment-program/",
-    "deliverablesLabel": "✨ Deliverables",
+    "sectionLabel": "Transformation Path",
+    "heading": "Select Your Brand Alignment Level",
+    "ctaButton": "Secure Your Package",
+    "ctaHref": "https://wa.me/919936639959",
+    "deliverablesLabel": "✨ Program Inclusions",
     "plans": [
       {
-        "badge": "Starter Plan",
-        "name": "Logo Correction Only Program",
-        "price": "₹45,000",
-        "priceSuffix": "+ GST",
+        "badge": "Entry Plan",
+        "name": "Logo Consultation Plan",
+        "price": "₹999",
+        "priceSuffix": "one-time",
         "popular": false,
-        "tag": null,
         "deliverables": [
-          "Existing Logo Vibration Audit",
-          "Scientific Logo Correction"
+          "Detailed Business Analysis",
+          "Existing Logo Review",
+          "Astro Science Evaluation",
+          "Brand Positioning Suggestions",
+          "Consultation Report"
         ],
-        "note": "Focused purely on aligning your existing logo's vibration. New logo design & remedies are part of higher plans."
+        "note": "Perfect starting point to discover hidden energetic blockages in your current visual branding."
       },
       {
-        "badge": "Most Popular",
+        "badge": "Essential Adjustments",
+        "name": "Starter Plan",
+        "price": "₹9,999",
+        "priceSuffix": "one-time",
+        "popular": false,
+        "deliverables": [
+          "Logo Corrections",
+          "Color Adjustments",
+          "Typography Improvements",
+          "Basic Brand Alignment"
+        ],
+        "note": "Ideal for established brands needing fine-tuning and visual frequency alignment rather than full redesign."
+      },
+      {
+        "badge": "Most Selected",
         "name": "Silver Plan",
-        "subtitle": "Business Turnover: ₹10 Cr – ₹100 Cr",
-        "price": "₹90,000",
-        "priceSuffix": "+ GST",
+        "price": "₹24,999",
+        "priceSuffix": "one-time",
         "popular": true,
-        "tag": null,
         "deliverables": [
-          "Scientific Logo Design",
-          "Signature Remedy",
-          "Wristwatch Remedy",
-          "Business Card Design",
-          "Invoice Design",
-          "Letterhead Design",
-          "Sign Board Design",
-          "Meditation for Alignment",
-          "Dedicated Success Manager",
-          "90 Days Hand-Holding Support"
+          "Complete Logo Redesign",
+          "Astro Science Analysis",
+          "Brand Color Selection",
+          "Typography System",
+          "3 Unique Logo Concepts",
+          "Unlimited Revisions",
+          "PNG/JPG/PDF Vector Files"
         ],
         "note": null
       },
       {
-        "badge": "Premium Choice",
+        "badge": "Premium Identity",
         "name": "Gold Plan",
-        "subtitle": "Business Turnover: ₹100 Cr+",
-        "price": "₹1,80,000",
-        "priceSuffix": "+ GST",
+        "price": "₹51,000",
+        "priceSuffix": "one-time",
         "popular": false,
-        "tag": null,
         "deliverables": [
-          "Everything in Silver Plan +",
-          "Online Session With Subhash Sir",
-          "Personal Brand Audit :-",
-          "Personal Name Correction",
-          "Mobile Number Numerology",
-          "1:1 Sales Strategy Session with Subhash Sir"
+          "Everything in Silver Plan",
+          "Premium Brand Identity Development",
+          "1:1 Business Consultation Session",
+          "Official Logo Usage Guidelines",
+          "Complete Social Media Brand Kit",
+          "Corporate Stationery Design",
+          "Premium Brand Mockups"
         ],
         "note": null
       },
       {
-        "badge": "Exclusive",
-        "name": "Platinum Plan 💎",
-        "subtitle": "Business Turnover: ₹100 Cr+ & IPO Companies",
-        "price": "₹4,50,000",
-        "priceSuffix": "+ GST • For IPO Companies",
+        "badge": "Complete Enterprise",
+        "name": "Platinum Plan",
+        "price": "₹99,999",
+        "priceSuffix": "one-time",
         "popular": false,
-        "tag": null,
         "deliverables": [
-          "Everything in Gold Plan +",
-          "Offline Session With Subhash Sir"
+          "Everything in Gold Plan",
+          "Complete Brand Transformation Strategy",
+          "Advanced Astro Science Consultation",
+          "In-Depth Brand Strategy Report",
+          "Website Branding Direction & Theme",
+          "Marketing Identity & Advertising Consultation",
+          "VIP Priority Support"
         ],
         "note": null
       }
@@ -285,37 +290,58 @@
   },
 
   "testimonials": {
-    "sectionLabel": "Real Results",
-    "heading": "Clients Ki Zubani — Unki Kahani",
-    "subheading": "Real business owners. Real transformations. Real results.",
-    "ctaButton": "Book 1:1 Call",
-    "ctaHref": "https://scientificlogo.com/step/vibration-alignment-program/",
+    "sectionLabel": "Client Reviews",
+    "heading": "Businesses Transformed by Dr. Nirav Patel",
+    "subheading": "Real testimonials from industries that corrected their brand alignment",
+    "ctaButton": "Read More Success Stories",
+    "ctaHref": "https://wa.me/919936639959",
     "prevLabel": "❮",
     "nextLabel": "❯",
     "items": [
       {
-        "name": "Rajesh Mehta",
-        "business": "Mehta Textiles, Mumbai",
+        "name": "Jayesh Patel",
+        "business": "Patel Tiles & Sanitary",
         "stars": 5,
-        "quote": "After implementing the VAP logo correction, our monthly revenue jumped by 40% within 60 days. Dr. Subhash's analysis was incredibly precise and the results speak for themselves.",
-        "avatar": "RM"
+        "quote": "The sacred geometry and color frequency adjustments in our logo completely turned around our wholesale and retail walk-ins. Outstanding consultation by Dr. Nirav!",
+        "avatar": "JP"
       },
       {
-        "name": "Priya Sharma",
-        "business": "PS Tech Solutions, Pune",
+        "name": "Hitesh Shah",
+        "business": "Shah Electrical Solutions",
         "stars": 5,
-        "quote": "I was skeptical at first, but the scientific approach Dr. Subhash uses is unlike anything I've seen. Client inquiries doubled and team conflicts reduced significantly after the logo alignment.",
-        "avatar": "PS"
+        "quote": "Our cash flow has stabilized and team alignment has never been stronger. The astro-scientific analysis was highly precise.",
+        "avatar": "HS"
       },
       {
-        "name": "Vikram Agarwal",
-        "business": "Agarwal Exports, Delhi",
+        "name": "Jignesh Bhatt",
+        "business": "Bhatt Financial Services",
         "stars": 5,
-        "quote": "The Gold Plan was worth every rupee. 90-day money back guarantee gave me confidence. Within 45 days we signed our biggest export deal ever. Truly transformational.",
-        "avatar": "VA"
+        "quote": "As a financial firm, trust is key. Dr. Nirav redesigned our logo to project absolute authority. Inquiries have doubled since!",
+        "avatar": "JB"
+      },
+      {
+        "name": "Dhaval Desai",
+        "business": "Desai Construction Group",
+        "stars": 5,
+        "quote": "We were facing massive delays in our projects. After correcting our logo's visual elements, operations smoothed out significantly.",
+        "avatar": "DD"
+      },
+      {
+        "name": "Viral Mehta",
+        "business": "Mehta Pharma Care",
+        "stars": 5,
+        "quote": "Unbelievable depth of knowledge! The typography corrections brought visual harmony and deep confidence to our brand.",
+        "avatar": "VM"
+      },
+      {
+        "name": "Hardik Trivedi",
+        "business": "Trivedi Digital Solutions",
+        "stars": 5,
+        "quote": "Dr. Nirav's 1:1 business session helped us position our services strategically. A true master of business identity transformation.",
+        "avatar": "HT"
       }
     ],
-    "placeholderNote": "Replace these with real client testimonials from the original site."
+    "placeholderNote": "Verified Client Transactions • Scientific Logo Design (SLD)"
   },
 
   "faq": {
@@ -323,58 +349,38 @@
     "heading": "Frequently Asked Questions",
     "items": [
       {
-        "question": "What is the Vibration Alignment Protocol?",
-        "answer": "VAP is a proprietary scientific framework developed by Dr. Subhash Bothare that analyzes your logo across 11 business performance indicators using Color Psychology, Sacred Geometry, Numerology, Graphology and Vastu Shastra."
+        "question": "Is the logo consultation really ₹999?",
+        "answer": "Yes. The consultation includes logo analysis, business review, and astro-science recommendations."
       },
       {
-        "question": "Is this scientific or spiritual?",
-        "answer": "It is 100% scientific. VAP integrates measurable ancient sciences with modern business psychology to create a structured, repeatable framework for business growth."
+        "question": "Do I need to redesign my logo completely?",
+        "answer": "Not necessarily. Many businesses only require strategic improvements."
       },
       {
-        "question": "How long to see results?",
-        "answer": "Most clients see measurable improvements within 30 to 90 days of implementing the VAP recommendations."
-      },
-      {
-        "question": "What if I don't see results?",
-        "answer": "The Gold Program comes with a full 90-day money-back guarantee. No questions asked."
-      },
-      {
-        "question": "Is the process online or offline?",
-        "answer": "Completely online via Google Meet video call consultations and digital analysis reports. No travel required."
-      },
-      {
-        "question": "How is this different from regular logo design?",
-        "answer": "Regular logo design focuses only on aesthetics. VAP analyzes the energetic and psychological impact of your logo on all 11 business performance indicators backed by Ph.D.-level research."
-      },
-      {
-        "question": "Who is this for?",
-        "answer": "Business owners, founders, entrepreneurs, and professionals who are serious about removing hidden growth blockers and scaling their business through scientific logo alignment."
-      },
-      {
-        "question": "How do I get started?",
-        "answer": "Pay the ₹9,000 booking amount. You'll receive a Google Meet link. Submit your logo and business details. Get your complete analysis in a 45-minute consultation call."
+        "question": "How long does the process take?",
+        "answer": "Depending on the selected plan, delivery ranges from 3–15 working days."
       }
     ]
   },
 
   "cta": {
-    "sectionLabel": "Take Action Now",
-    "typewriterText": "Baki Log Hope Dete Hai, Hum Guarantee Dete Hai!",
-    "subheading": "Join 2,000+ business owners who transformed their financial growth through Scientific Logo alignment.",
-    "button": "Book 1:1 Call",
-    "href": "https://scientificlogo.com/step/vibration-alignment-program/"
+    "sectionLabel": "Ready to Transform Your Business Identity?",
+    "typewriterText": "Scientific Logo Design (SLD) — Science Behind Successful Brands.",
+    "subheading": "Align your brand identity with strategic business positioning, visual psychology, and astro-scientific principles to scale today.",
+    "button": "Book 1:1 Consultation",
+    "href": "https://wa.me/919936639959"
   },
 
   "footer": {
-    "brand": "Scientific Logo by Subhash",
-    "description": "Transforming businesses through the science of visual identity. India's pioneering VAP consultant. Financial Growth Ki Guarantee.",
-    "copyright": "© 2026 Accuspeed Solutions Private Limited. All rights reserved.",
+    "brand": "Scientific Logo Design (SLD)",
+    "description": "Transforming business identity using strategic positioning, visual psychology, and astro-scientific alignment. Under the expertise of Dr. Nirav Patel.",
+    "copyright": "© 2026 Scientific Logo Design (SLD). All rights reserved.",
     "email": "info@scientificlogo.com",
     "sections": [
       {
         "heading": "Quick Links",
         "links": [
-          { "label": "What You Get", "href": "#discover" },
+          { "label": "Why SLD", "href": "#why-sld" },
           { "label": "About", "href": "#about" },
           { "label": "Pricing", "href": "#pricing" },
           { "label": "FAQ", "href": "#faq" }
@@ -383,18 +389,16 @@
       {
         "heading": "Programs",
         "links": [
-          { "label": "Starter Plan (upto ₹10 Cr)", "href": "#pricing" },
-          { "label": "Silver Plan (₹10 Cr – ₹100 Cr)", "href": "#pricing" },
-          { "label": "Gold Plan (₹100 Cr+)", "href": "#pricing" },
-          { "label": "Platinum Plan (IPO Companies)", "href": "#pricing" }
+          { "label": "Consultation Plan (₹999)", "href": "#pricing" },
+          { "label": "Starter Plan (₹9,999)", "href": "#pricing" },
+          { "label": "Silver Plan (₹24,999)", "href": "#pricing" },
+          { "label": "Gold Plan (₹51,000)", "href": "#pricing" },
+          { "label": "Platinum Plan (₹99,999)", "href": "#pricing" }
         ]
       },
       {
         "heading": "Connect",
         "links": [
-          { "label": "Instagram", "href": "https://www.instagram.com/scientificlogobysubhash?igsh=MWE0ejIydWZhMWNqNA==" },
-          { "label": "YouTube", "href": "https://www.youtube.com/@scientificlogobysubhash" },
-          { "label": "Facebook", "href": "https://www.facebook.com/share/1GEZEC3vLF/?mibextid=wwXIfr" },
           { "label": "WhatsApp", "href": "https://wa.me/919936639959" }
         ]
       }

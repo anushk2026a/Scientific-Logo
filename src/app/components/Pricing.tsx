@@ -38,10 +38,31 @@ export default function Pricing({ content }: { content: PricingContent }) {
           </h2>
         </motion.div>
 
+      <style>{`
+        @media (min-width: 768px) {
+          .pricing-container {
+            min-width: auto !important;
+            display: grid !important;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
+            justify-content: center !important;
+            width: 100% !important;
+          }
+          .pricing-card {
+            width: auto !important;
+            flex-shrink: 1 !important;
+          }
+        }
+        @media (min-width: 1200px) {
+          .pricing-container {
+            grid-template-columns: repeat(5, 1fr) !important;
+          }
+        }
+      `}</style>
+
         {/* Horizontal scroll on mobile, grid on larger screens */}
         <div className="overflow-x-auto pb-4 -mx-4 px-4 sm:mx-0 sm:px-0">
           <div
-            className="flex gap-5 sm:gap-6 pt-6"
+            className="flex gap-5 sm:gap-6 pt-6 pricing-container"
             style={{ minWidth: `${content.plans.length * 280}px` }}
           >
             {/* On md+ switch to grid via a wrapper trick — use responsive display */}
@@ -52,7 +73,7 @@ export default function Pricing({ content }: { content: PricingContent }) {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-100px' }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className="flex flex-col rounded-xl border p-5 sm:p-6 relative shrink-0"
+                className="flex flex-col rounded-xl border p-5 sm:p-6 relative shrink-0 pricing-card"
                 style={{
                   width: 'clamp(260px, 72vw, 320px)',
                   backgroundColor: plan.popular ? 'var(--color-surface-2)' : 'var(--color-surface)',

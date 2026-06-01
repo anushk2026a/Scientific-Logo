@@ -17,7 +17,7 @@ const cardVariants = {
 
 export default function WhatYouGet({ content }: { content: WhatYouGetContent }) {
   return (
-    <section id="discover" className="py-24 md:py-32" style={{ backgroundColor: 'var(--color-bg)' }}>
+    <section id="why-sld" className="py-24 md:py-32" style={{ backgroundColor: 'var(--color-bg)' }}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <motion.div
           initial={{ opacity: 0, y: 40 }}

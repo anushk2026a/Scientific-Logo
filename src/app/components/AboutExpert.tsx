@@ -90,10 +90,10 @@ export default function AboutExpert({ content }: { content: AboutContent }) {
               {content.bio}
             </p>
 
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-6">
               {content.stats.map((stat, i) => (
-                <div key={i} className="p-4 rounded-lg border" style={{ backgroundColor: 'var(--color-surface)', borderColor: 'var(--color-border)' }}>
-                  <p className="font-heading font-bold text-2xl md:text-3xl gold-text">
+                <div key={i} className="p-4 rounded-lg border transition-all duration-300 hover:border-yellow-500/40" style={{ backgroundColor: 'var(--color-surface)', borderColor: 'var(--color-border)' }}>
+                  <p className="font-heading font-bold text-xl sm:text-2xl md:text-3xl gold-text">
                     <AnimatedCounter value={stat.value} suffix={stat.suffix} />
                   </p>
                   <p className="text-xs mt-1" style={{ color: 'var(--color-text-muted)', fontFamily: 'var(--font-body)' }}>

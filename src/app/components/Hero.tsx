@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 interface HeroContent {
   badge: string;
   headline: string;
+  description?: string;
   ctaButton: string;
   ctaHref: string;
   scrollLabel: string;
@@ -51,6 +52,19 @@ export default function Hero({ content }: { content: HeroContent }) {
             <> —{' '}<em className="gold-text not-italic">{after}</em></>
           )}
         </motion.h1>
+
+        {/* Description */}
+        {content.description && (
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5, duration: 0.6 }}
+            className="text-sm sm:text-base leading-relaxed mb-8 max-w-2xl px-4"
+            style={{ color: 'var(--color-text-muted)', fontFamily: 'var(--font-body)' }}
+          >
+            {content.description}
+          </motion.p>
+        )}
 
         {/* CTA */}
         <motion.a

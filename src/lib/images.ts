@@ -1,7 +1,7 @@
 export const IMAGES = {
-  logo:         'https://scientificlogo.com/wp-content/uploads/2026/05/WhatsApp-Image-2026-04-17-at-17.28.30.jpeg',
-  expertPhoto:  'https://scientificlogo.com/wp-content/uploads/2026/05/Dr.-Subhash-Bothare.webp',
-  achievement1: 'https://scientificlogo.com/wp-content/uploads/2026/05/Dr.-Subhash-Bothare-1.webp',
-  achievement2: 'https://scientificlogo.com/wp-content/uploads/2026/05/Dr.-Subhash-Bothare-with-Ramnath-Kovid.webp',
-  achievement3: 'https://scientificlogo.com/wp-content/uploads/2026/05/Dr.-Subhash-Bothare-with-Nitin-Gadkari.webp',
+  logo:         'https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&q=80&w=400',
+  expertPhoto:  'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600',
+  achievement1: 'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&q=80&w=600',
+  achievement2: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&q=80&w=600',
+  achievement3: 'https://images.unsplash.com/photo-1616469829581-73993eb86b02?auto=format&fit=crop&q=80&w=600',
 };
