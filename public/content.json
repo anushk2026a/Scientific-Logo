@@ -2,13 +2,13 @@
   "site": {
     "brandName": "Scientific Logo Design (SLD)",
     "tagline": "Science Behind Successful Brands",
-    "logoAlt": "Scientific Logo Design by Dr. Nirav Patel"
+    "logoAlt": "Scientific Logo Design by Acharya Divyesh Bhatt"
   },
 
   "nav": {
     "links": [
       { "label": "Why SLD", "href": "#why-sld" },
-      { "label": "About Dr. Patel", "href": "#about" },
+      { "label": "About Acharya Bhatt", "href": "#about" },
       { "label": "Transformation Path", "href": "#pricing" },
       { "label": "FAQ", "href": "#faq" }
     ],
@@ -19,7 +19,7 @@
   "hero": {
     "badge": "SCIENTIFIC LOGO DESIGN (SLD)",
     "headline": "Where Science, Branding & Astro Intelligence — Create Powerful Business Identities",
-    "description": "Transform your business identity with scientifically researched logo design solutions. Led by Dr. Nirav Patel, PhD Business Consultation Specialist and Astro Science Logo Expert, we help businesses align their brand identity with strategic business positioning, visual psychology, and astro-scientific principles.",
+    "description": "Transform your business identity with scientifically researched logo design solutions. Led by Acharya Divyesh Bhatt, M.A PHD in Sanskrit Vedic astrology and Astro Science Logo Expert, we help businesses align their brand identity with strategic business positioning, visual psychology, and astro-scientific principles.",
     "ctaButton": "Get Started Now",
     "ctaHref": "https://wa.me/919936639959",
     "scrollLabel": "Explore",
@@ -55,7 +55,7 @@
       {
         "icon": "🤝",
         "title": "Personalized Consultation",
-        "description": "Direct 1:1 consultation sessions with Dr. Nirav Patel to deep-dive into your specific business challenges and aspirations."
+        "description": "Direct 1:1 consultation sessions with Acharya Divyesh Bhatt to deep-dive into your specific business challenges and aspirations."
       },
       {
         "icon": "🔬",
@@ -110,10 +110,10 @@
 
   "about": {
     "sectionLabel": "About the Expert",
-    "name": "Dr. Nirav Patel",
-    "title": "PhD Business Consultation Specialist & Astro Science Logo Expert",
-    "bio": "Dr. Nirav Patel is a renowned Business Consultation Specialist and Astro Science Logo Expert with extensive experience in business transformation through strategic brand identity development.",
-    "imageAlt": "Dr. Nirav Patel - PhD Business Consultation Specialist",
+    "name": "Acharya Divyesh Bhatt",
+    "title": "M.A PHD in Sanskrit Vedic astrology & Astro Science Logo Expert",
+    "bio": "Acharya Divyesh Bhatt is a renowned scholar with M.A PHD in Sanskrit Vedic astrology and Astro Science Logo Expert, possessing extensive experience in business transformation through strategic brand identity development.",
+    "imageAlt": "Acharya Divyesh Bhatt - M.A PHD in Sanskrit Vedic astrology",
     "stats": [
       { "value": 5000, "suffix": "+", "label": "Logos Consulted" },
       { "value": 2500, "suffix": "+", "label": "Businesses Transformed" },
@@ -130,8 +130,8 @@
     "subheading": "Guiding businesses through scientific brand transformation",
     "items": [
       {
-        "imageAlt": "Scientific Logo Design Consultation with Dr. Nirav Patel",
-        "title": "PhD in Business Consultation",
+        "imageAlt": "Scientific Logo Design Consultation with Acharya Divyesh Bhatt",
+        "title": "M.A PHD in Sanskrit Vedic astrology",
         "subtitle": "Specialized research in branding and visual psychology alignment"
       },
       {
@@ -291,7 +291,7 @@
 
   "testimonials": {
     "sectionLabel": "Client Reviews",
-    "heading": "Businesses Transformed by Dr. Nirav Patel",
+    "heading": "Businesses Transformed by Acharya Divyesh Bhatt",
     "subheading": "Real testimonials from industries that corrected their brand alignment",
     "ctaButton": "Read More Success Stories",
     "ctaHref": "https://wa.me/919936639959",
@@ -302,7 +302,7 @@
         "name": "Jayesh Patel",
         "business": "Patel Tiles & Sanitary",
         "stars": 5,
-        "quote": "The sacred geometry and color frequency adjustments in our logo completely turned around our wholesale and retail walk-ins. Outstanding consultation by Dr. Nirav!",
+        "quote": "The sacred geometry and color frequency adjustments in our logo completely turned around our wholesale and retail walk-ins. Outstanding consultation by Acharya Divyesh!",
         "avatar": "JP"
       },
       {
@@ -316,7 +316,7 @@
         "name": "Jignesh Bhatt",
         "business": "Bhatt Financial Services",
         "stars": 5,
-        "quote": "As a financial firm, trust is key. Dr. Nirav redesigned our logo to project absolute authority. Inquiries have doubled since!",
+        "quote": "As a financial firm, trust is key. Acharya Divyesh redesigned our logo to project absolute authority. Inquiries have doubled since!",
         "avatar": "JB"
       },
       {
@@ -337,7 +337,7 @@
         "name": "Hardik Trivedi",
         "business": "Trivedi Digital Solutions",
         "stars": 5,
-        "quote": "Dr. Nirav's 1:1 business session helped us position our services strategically. A true master of business identity transformation.",
+        "quote": "Acharya Divyesh's 1:1 business session helped us position our services strategically. A true master of business identity transformation.",
         "avatar": "HT"
       }
     ],
@@ -373,7 +373,7 @@
 
   "footer": {
     "brand": "Scientific Logo Design (SLD)",
-    "description": "Transforming business identity using strategic positioning, visual psychology, and astro-scientific alignment. Under the expertise of Dr. Nirav Patel.",
+    "description": "Transforming business identity using strategic positioning, visual psychology, and astro-scientific alignment. Under the expertise of Acharya Divyesh Bhatt.",
     "copyright": "© 2026 Scientific Logo Design (SLD). All rights reserved.",
     "email": "info@scientificlogo.com",
     "sections": [

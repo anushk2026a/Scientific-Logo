@@ -6,7 +6,7 @@ import FloatingWhatsApp from './components/FloatingWhatsApp';
 
 export const metadata: Metadata = {
   title: 'Scientific Logo Design (SLD) — Where Science, Branding & Astro Intelligence Meet',
-  description: "Transform your business identity with scientifically researched logo solutions led by Dr. Nirav Patel, PhD Business Consultation Specialist.",
+  description: "Transform your business identity with scientifically researched logo solutions led by Acharya Divyesh Bhatt, M.A PHD in Sanskrit Vedic astrology.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
